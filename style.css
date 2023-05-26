@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 150%;
+}
+header{
+    width: 100%;
+    height: 24%;
+    background: #FAF0DC;
+
+}
+.logo{
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+    width: 8%;
+    height: auto;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 34em;
+    background: #FAF0DC;
+    justify-content: space-between;
+}
+section{
+    height: 100%;
+    background: #FAF0DC;
+}
+.seccion1{
+    width: 60%;
+    margin-left: 15%;
+}
+.seccion2{
+    width: 30%;
+    height: 34em;
+    margin-right: 2em;
+    background-color: white;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.imagenseccion2{
+    width: 100%;
+    height: 60%;
+    padding-top: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.mensajenoEncontrado{
+    width: 100%;
+    height: 10%;
+    padding-top: 15%;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    color:#590A03;
+}
+.parrafoingresetexto{
+    width: 100%;
+    font-size: 1em;
+    padding-top: 7%;
+    text-align: center;
+    color: #010326;
+}
+.text-area{
+    width: 75%;
+    height: 70%;
+    resize: none;
+    color: #010326;
+    font-size: 2em;
+    text-transform: lowercase;
+    margin-top: 2.4%;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    background: #FAF0DC;
+}
+.text-area::placeholder{
+    color: #010326;}
+
+.alertaletras{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    gap: 0.8%;
+    font-size: 0.75em;
+}
+
+.botones{
+    display: flex;
+    margin-top: 3%;
+    text-align: center;
+}
+#botonEncriptar{
+    width: 40%;
+    height: 4.2em;
+    background: #010326;
+    border: 1px solid #010326;
+    border-radius: 24px;
+    color: whitesmoke;
+    font-size: 1em;
+    margin-right: 1.25em;
+    cursor: pointer;
+}
+#botonDesencriptar {
+    width: 40%;
+    height: 4.2em;
+    background: #F2F2F2;
+    border: 1px solid c;
+    border-radius: 1.5em;
+    color: #010326;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.resultado{
+    width: 100%;
+    height: 70%;
+
+
+}
+.textoResultado{
+    width: 100%;
+    height: 70%;
+    padding-top: 10%;
+    resize: none;
+    color: #010326;
+    font-size: 1.5em;
+    margin-top: 2.4%;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    margin-right: 1em;
+ 
+}
+
+#botonCopiar {
+    width: 20.5em;
+    height: 4.2em;
+    background: #F2F2F2;
+    border: 1px solid c;
+    border-radius: 1.5em;
+    color: #010326;
+    font-size: 1em;
+    margin-right: 1.25em;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+ 
+}
+footer{
+    height: 20%;
+    font-size: 1.5em;
+    color: #025959;
+    background-image: url(Imagenes/franja.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ocultar{
+    display: none;
+}
+

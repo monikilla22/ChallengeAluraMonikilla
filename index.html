@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Inter:wght@200&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Frame 6.png" alt="Logo de Alura" >
+    </header>
+    <main>
+        <section class="seccion1">
+            <textarea class="text-area" placeholder="Ingrese el texto aqui"></textarea>
+            
+            <div class="alertaletras">
+                <img src="Imagenes/bi_exclamation-circle-fill.png" alt="exclamacion" class="imagenexclamacion">
+                <h3 class="informacioncaracteres">Sólo letras minúsculas y sin acentos</h3>
+            </div>
+            <div class="botones">
+                <button id="botonEncriptar">Encriptar</button>
+                <button id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="imagenseccion2">
+                <img src="Imagenes/figura.png" alt="imagenencriptador">
+            </div>
+            <div class="mensajenoEncontrado">
+                <h4>Ningún mensaje fue<br>encontrado</h4>
+            </div>
+            <div class="parrafoingresetexto">
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="resultado">
+                <h4></h4>
+                <textarea class="textoResultado"></textarea>
+            </div>
+            <div>
+                <button id="botonCopiar">copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Challenge Oracle One G5 By Monica Ramirez
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
