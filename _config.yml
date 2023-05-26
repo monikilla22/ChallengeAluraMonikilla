@@ -1,0 +1,8 @@
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-primer
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-feed
